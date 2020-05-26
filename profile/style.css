@@ -1,11 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Ubuntu&display=swap');
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C4C4C4;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  list-style-type: none;
+  margin: auto;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #C4C4C4;
+}
+
 body {
-  background-color: rgb(180, 180, 180);
+  background-color: rgb(255, 255, 255);
   color: #de541e;
   font-family: ubuntu, sans-serif;
   font-size: 15px;
   line-height: 1.2;
+  margin: 0;
 }
 
 h2, p{
@@ -13,39 +47,28 @@ h2, p{
   color: #f5853f;
   text-align: center;
 }
-a{
-  font-family: nunito, sans-serif;
-  color: #739e82;
-  text-decoration: none;
-}
-
-a:hover{
-  color: rgb(100, 100, 100);
-  font-size: 16px;
-}
 
 .container{
   margin: 0px auto;
-  max-width: 700px;
   text-align: center;
 }
 
-.card{
+/* .card{
   background-color: rgb(230, 230, 230);
   margin: 20px 30px;
   text-align: center;
   border-radius: 10px;
   padding: 10px 15px;
   box-shadow: 5px 5px 20px rgb(120, 120, 120);
-}
+} */
 
 .card img{
   width: 50px;
 }
 
 #profile-pic{
-  width: 170px;
-  border-radius: 45%;
+  width: 250px;
+  border-radius: 5%;
 }
 
 .list-inline li{
