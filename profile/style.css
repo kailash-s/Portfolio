@@ -22,6 +22,17 @@ ul {
   margin: auto;
 }
 
+.about {
+  display: flex;
+  justify-content: center;
+  padding-top: 35;
+}
+
+.bio {
+  width: 300;
+  margin: 60px 0 0 -41px;
+}
+
 li a {
   display: block;
   color: black;
@@ -52,15 +63,6 @@ h2, p{
   margin: 0px auto;
   text-align: center;
 }
-
-/* .card{
-  background-color: rgb(230, 230, 230);
-  margin: 20px 30px;
-  text-align: center;
-  border-radius: 10px;
-  padding: 10px 15px;
-  box-shadow: 5px 5px 20px rgb(120, 120, 120);
-} */
 
 .card img{
   width: 50px;
