@@ -82,8 +82,19 @@ h2, p{
   text-align: center;
 }
 
-.images{
-  
+#carousel {
+  margin: 0 auto;
+  width: 800px;
+  max-width: 100%;
+  text-align: center;
+}
+
+#carousel input[type=radio] {
+  display: none;
+}
+
+#carousel label {
+  cursor:pointer;
 }
 
 #thumbnail-pic{
